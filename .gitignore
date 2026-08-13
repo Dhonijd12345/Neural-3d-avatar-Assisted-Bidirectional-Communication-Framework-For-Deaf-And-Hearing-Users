@@ -1,8 +1,126 @@
-*.exe
-*.zip
-*.h5
-*.pkl
-*.pyc
+# ============================================================
+# Neural 3D Avatar-Assisted Bidirectional Communication
+# Git Ignore Configuration
+# Author: Nikile Eines Dhoni J
+# ============================================================
+
+# -------------------------
+# Python
+# -------------------------
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# -------------------------
+# Virtual Environment
+# -------------------------
 venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Operating System
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
 .env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials/
+
+# -------------------------
+# Temporary Files
+# -------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# -------------------------
+# Python Build
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Model Training Artifacts
+# -------------------------
+runs/
+wandb/
+checkpoints/
+*.ckpt
+*.h5
+*.keras
+*.onnx
+
+# -------------------------
+# Local Databases
+# -------------------------
+*.db-journal
+*.sqlite-shm
+*.sqlite-wal
+
+# -------------------------
+# Cache
+# -------------------------
+.cache/
+
+# -------------------------
+# Generated Audio
+# -------------------------
+*.mp3
+*.wav
+*.ogg
+
+# -------------------------
+# Generated Video
+# -------------------------
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# -------------------------
+# Local Uploads
+# -------------------------
+uploads/
+temp_uploads/
+
+# -------------------------
+# Scratch / Experiments
+# -------------------------
+scratch/
+experiments/
