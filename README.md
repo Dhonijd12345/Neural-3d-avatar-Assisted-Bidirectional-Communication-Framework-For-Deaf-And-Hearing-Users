@@ -225,7 +225,7 @@ This project is licensed under the **MIT License**.
 
 # 👨‍💻 Author
 
-## Dhoni J
+## Nikile Eines Dhoni J
 
 **B.Tech – Artificial Intelligence and Data Science**
 
@@ -233,6 +233,10 @@ Mohamed Sathak Engineering College
 
 GitHub:
 https://github.com/Dhonijd12345
+
+LinkedIn:
+www.linkedin.com/in/nikile-eines-dhoni-j-7b73b92a2
+
 
 ---
 
