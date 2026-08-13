@@ -504,13 +504,9 @@ B.Tech – Artificial Intelligence and Data Science
 
 Mohamed Sathak Engineering College
 
-🔗 GitHub
+🔗 GitHub:https://github.com/Dhonijd12345
 
-https://github.com/Dhonijd12345
-
-🔗 LinkedIn
-
-https://www.linkedin.com/in/dhoni-j-7b73b92a2
+🔗 LinkedIn: https://www.linkedin.com/in/dhoni-j-7b73b92a2
 
 ⭐ Support
 
