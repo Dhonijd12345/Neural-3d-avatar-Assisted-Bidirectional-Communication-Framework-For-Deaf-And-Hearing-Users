@@ -112,3 +112,297 @@ Recognized Text
 Text-to-Speech
     ↓
 Hearing User
+
+6.2 Hearing-to-Deaf Communication
+Hearing User
+    ↓
+Microphone
+    ↓
+Speech Recognition
+    ↓
+Text
+    ↓
+Communication Layer
+    ↓
+3D Avatar / Visual Output
+    ↓
+Deaf User
+
+7. System Architecture
+                    ┌─────────────────────┐
+                    │        Users        │
+                    └──────────┬──────────┘
+                               │
+              ┌────────────────┴────────────────┐
+              │                                 │
+              ▼                                 ▼
+       ┌─────────────┐                   ┌─────────────┐
+       │ Deaf User   │                   │ Hearing User│
+       └──────┬──────┘                   └──────┬──────┘
+              │                                 │
+              ▼                                 ▼
+          Camera                            Microphone
+              │                                 │
+              ▼                                 ▼
+      OpenCV + MediaPipe                Speech Recognition
+              │                                 │
+              ▼                                 ▼
+       Gesture Features                       Text
+              │                                 │
+              ▼                                 │
+      ML Gesture Model                         │
+              │                                 │
+              ▼                                 │
+       Recognized Text                         │
+              │                                 │
+              └─────────────┬───────────────────┘
+                            ▼
+                  Communication Layer
+                            │
+                    ┌───────┴───────┐
+                    ▼               ▼
+               TTS Output       3D Avatar
+                    │               │
+                    ▼               ▼
+             Hearing User       Deaf User
+
+8. Technologies Used
+Python
+
+Core programming language used for application development and AI processing.
+
+OpenCV
+
+Used for camera and computer vision processing.
+
+MediaPipe
+
+Used for gesture and hand-tracking-related processing.
+
+Scikit-learn
+
+Used for machine-learning-based gesture classification.
+
+SpeechRecognition
+
+Used for converting spoken input into text.
+
+gTTS
+
+Used for generating speech output from text.
+
+Flask
+
+Used as the web application backend.
+
+HTML / CSS / JavaScript
+
+Used for the user interface.
+
+SQLite
+
+Used as the local database component.
+
+9. Project Structure
+Neural-3d-avatar-Assisted-Bidirectional-Communication-Framework-For-Deaf-And-Hearing-Users/
+│
+├── avatar/
+├── database/
+├── dd/
+├── sign/
+├── static/
+├── templates/
+│
+├── camera.py
+├── camera1.py
+├── main.py
+├── gesture_model.pkl
+├── gesture_map.pkl
+├── read.txt
+├── bc.txt
+│
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── CODE_OF_CONDUCT.md
+└── PROJECT_REPORT.md
+
+10. Installation
+
+Clone the repository:
+
+git clone https://github.com/Dhonijd12345/Neural-3d-avatar-Assisted-Bidirectional-Communication-Framework-For-Deaf-And-Hearing-Users.git
+
+Navigate to the project:
+
+cd Neural-3d-avatar-Assisted-Bidirectional-Communication-Framework-For-Deaf-And-Hearing-Users
+
+Create a virtual environment:
+
+python -m venv venv
+
+Activate it:
+
+venv\Scripts\activate
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+11. Running the Application
+
+The primary application entry point is:
+
+python main.py
+
+Camera-based modules can be used according to the project's application workflow.
+
+12. Communication Workflow
+Deaf User
+Gesture
+ ↓
+Camera
+ ↓
+Computer Vision
+ ↓
+Feature Extraction
+ ↓
+ML Prediction
+ ↓
+Text
+ ↓
+Speech
+Hearing User
+Speech
+ ↓
+Speech Recognition
+ ↓
+Text
+ ↓
+Avatar / Visual Representation
+
+13. Applications
+
+Potential application environments include:
+
+Educational institutions
+Hospitals
+Banking services
+Government offices
+Railway stations
+Airports
+Customer service centers
+Public service centers
+Accessibility support systems
+
+14. Advantages
+Accessibility
+
+Provides an AI-based approach to accessible communication.
+
+Bidirectional Interaction
+
+Supports communication in both directions.
+
+Multimodal Input
+
+Uses both visual and audio input.
+
+AI-Assisted Processing
+
+Combines computer vision and machine learning.
+
+Extensibility
+
+The architecture can be expanded with improved models and avatar systems.
+
+15. Limitations
+Gesture recognition depends on camera quality.
+Lighting conditions can affect visual recognition.
+Gesture variations can affect classification.
+Continuous sign language is more complex than isolated gesture recognition.
+Sentence-level translation requires more advanced sequence modeling.
+Avatar output depends on available animation resources.
+Some speech services may require internet connectivity.
+
+16. Future Enhancements
+
+Future development can include:
+
+Deep-learning-based sign language recognition.
+Continuous gesture recognition.
+Sentence-level sign language translation.
+Multiple sign language support.
+Improved 3D avatar animation.
+Real-time lip synchronization.
+Mobile application.
+Cloud deployment.
+AI chatbot integration.
+Voice assistant integration.
+Real-time video communication.
+Multilingual communication.
+
+17. Expected Impact
+
+The project demonstrates the potential of AI to support accessibility and inclusive communication.
+
+By combining multiple communication technologies, the framework can serve as a foundation for future assistive communication applications.
+
+18. Learning Outcomes
+
+The project provided practical experience in:
+
+Artificial Intelligence
+Computer Vision
+Machine Learning
+Gesture Recognition
+Speech Recognition
+Text-to-Speech
+Flask
+Web Development
+SQLite
+Human-Computer Interaction
+Accessibility-focused application development
+Git and GitHub
+
+19. Conclusion
+
+The Neural 3D Avatar-Assisted Bidirectional Communication Framework demonstrates an AI-assisted approach to communication between Deaf and Hearing users.
+
+The integration of gesture recognition, speech processing, machine learning, and avatar-assisted visual communication provides a foundation for developing more accessible communication systems.
+
+The project can be further enhanced through deep learning, continuous sign language translation, improved avatar animation, multilingual support, and real-time communication capabilities.
+
+20. Author
+Nikile Eines Dhoni J
+
+B.Tech – Artificial Intelligence and Data Science
+
+Mohamed Sathak Engineering College
+
+GitHub:
+
+https://github.com/Dhonijd12345
+
+LinkedIn:
+
+https://www.linkedin.com/in/dhoni-j-7b73b92a2
+
+21. License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for complete details.
+
+<div align="center">
+🌍 Breaking Communication Barriers with Artificial Intelligence
+
+AI • Computer Vision • Machine Learning • Speech Recognition • 3D Avatar • Accessibility
+
+© 2026 Nikile Eines Dhoni J
+
+</div> ```
