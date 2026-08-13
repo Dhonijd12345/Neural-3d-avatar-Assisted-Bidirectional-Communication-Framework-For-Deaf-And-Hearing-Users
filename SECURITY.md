@@ -1,7 +1,4 @@
 
----
-
-# 7. `SECURITY.md`
 
 ```markdown
 # Security Policy
